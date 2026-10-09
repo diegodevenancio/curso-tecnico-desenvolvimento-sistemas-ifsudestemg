@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Aprender, Criar, Evoluir</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Aprender, Criar, Evoluir</h1>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre mim</a></li>
+                <li><a href="#aprendizado">Em aprendizado</a></li>
+                <li><a href="#projetos">Meus projetos</a></li>
+                <li><a href="#evolucao">Minha evolução</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+
+        <script src="script.js" defer></script>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <h2>Olá, meu nome é Diego!</h2>
+            <p>
+                Aprender, criar e evoluir.
+            </p>
+            <p>
+                Este é o espaço onde registro minha jornada
+                de aprendizado, meus projetos e minha evolução.
+            </p>
+        </section>
+
+        <section id="sobre">
+            <h2>Sobre mim</h2>
+            <div class="sobre-container">
+                <div class="sobre-imagem">
+                    <img src="imagens/Diego.jpg" alt="Foto de Diego Venâncio">
+                </div>
+                <div class="sobre-texto">
+                    <p>
+                        Meu nome é Diego e estou estudando
+                        Desenvolvimento de Sistemas.
+                    </p>
+                    <p>
+                        Este projeto faz parte da minha jornada
+                        de aprendizado na área de tecnologia.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="aprendizado">
+            <h2>Em aprendizado</h2>
+            <p>
+                Atualmente estou estudando e desenvolvendo
+                conhecimentos em diferentes áreas.
+            </p>
+            <div>
+                <h3>HTML</h3>
+                <p>Estrutura das páginas web.</p>
+            </div>
+            <div>
+
+                <h3>CSS</h3>
+                <p>Estilização e organização visual.</p>
+            </div>
+            <div>
+                <h3>JavaScript</h3>
+                <p>Interatividade e comportamento das páginas.</p>
+            </div>
+            <div>
+                <h3>Python</h3>
+                <p>Programação e desenvolvimento de aplicações.</p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus projetos</h2>
+            <div>
+                <h3>Projeto 1</h3>
+                <p>
+                    Primeiro projeto desenvolvido durante
+                    minha jornada de aprendizado.
+                </p>
+            </div>
+            <div>
+                <h3>Projeto 2</h3>
+                <p>
+                    Um novo projeto será apresentado aqui.
+                </p>
+            </div>
+            <div>
+                <h3>Projeto 3</h3>
+                <p>
+                    Mais um projeto para colocar em prática
+                    meus conhecimentos.
+                </p>
+            </div>
+        </section>
+
+        <section id="evolucao">
+            <h2>Minha evolução</h2>
+            <p>
+                Aqui vou registrar minha evolução ao longo
+                da minha jornada de aprendizado.
+            </p>
+            <p>
+                Cada novo conhecimento representa mais um
+                passo nessa trajetória.
+            </p>
+        </section>
+
+        <section id="contato">
+            <h2>Contato e Interação</h2>
+            <p>
+                Entre em contato comigo ou teste a calculadora de progresso da jornada!
+            </p>
+            <p>
+                E-mail: diegodevenancio@gmail.com
+            </p>
+
+            <!-- Formulário interativo para atender aos requisitos -->
+            <form id="form-contato" style="margin-top: 20px;">
+                <div style="margin-bottom: 15px;">
+                    <label for="nome">Seu Nome:</label><br>
+                    <input type="text" id="nome" placeholder="Digite seu nome" style="padding: 8px; width: 100%; max-width: 300px; margin-top: 5px;">
+                </div>
+                
+                <div style="margin-bottom: 15px;">
+                    <label for="horas">Horas de estudo semanais planejadas:</label><br>
+                    <input type="number" id="horas" placeholder="Ex: 10" style="padding: 8px; width: 100%; max-width: 300px; margin-top: 5px;">
+                </div>
+
+                <button type="button" id="btn-calcular" style="background-color: #1f2937; color: white; padding: 10px 20px; border: none; cursor: pointer; border-radius: 4px;">Calcular Progresso Mensal</button>
+            </form>
+
+            <!-- Área onde o resultado do JavaScript será exibido -->
+            <div id="resultado-calculo" style="margin-top: 20px; font-weight: bold; color: #1f2937;"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Aprender, Criar, Evoluir © 2026
+        </p>
+    </footer>
+</body>
+</html>
