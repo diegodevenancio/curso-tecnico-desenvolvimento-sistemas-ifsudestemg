@@ -1,2 +1,7 @@
-# Ignorar todas as pastas de avaliacoes
-**/6 - Avaliações/
+# Ignorar tudo na raiz
+/*
+!/Disciplinas/
+!/.gitignore
+
+# Ignorar pastas de avaliações dentro de Disciplinas
+/Disciplinas/**/6 - Avalia*/
